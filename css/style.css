@@ -1,3 +1,9 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*--------------Header and Menu------------*/
+
 nav ul {
     position: fixed;
     top: 1vh;
@@ -27,12 +33,12 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: #f5a623;
+    background-color: rgba(179, 179, 179, 1);
     color: white;
     border-radius: 0.5vh 0.5vw;
 }
 
-nav ul li a {
+nav ul a {
     color: inherit;
     text-decoration: none;
 }
@@ -138,3 +144,21 @@ nav ul li a {
     transition-delay: .1s;
     transform: translate3d(0, -20px, 0) rotate(-270deg)
 }
+
+/*---------------Section Temp---------------*/
+.section {
+  text-align: center;
+  color: #bbb;
+  font-family: 'VT323', monospace;
+}
+
+#section1 h1{
+  font-family: 'VT323', monospace;
+  color: #00A700;
+}
+
+h1 {
+  font-size: 10em;
+}
+
+

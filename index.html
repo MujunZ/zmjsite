@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mujun's Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|VT323" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
@@ -16,8 +17,8 @@
 		    	</div>
 		  	</div>
             <ul class="menu">
-                <li><a href="#section2">About</a></li>
-                <li><a href="#section4">Contact</a></li>
+                <a href="#firstPage"><li data-menuanchor="firstPage">About</li></a>
+                <a href="#secondPage"><li data-menuanchor="secondPage">Contact</li></a>
                 <li>Projects</li>
                 <li>Education</li>
             </ul>
@@ -25,16 +26,18 @@
     </header>
     <main id="fullpage">
         <section class="section" id="section1">
-            <h1>section1</h1>
+            <h1>Mujun Zhang's Site is under construction...</h1>
+            <p>Latest Update: 2017.2.24</p>
+            <p>Created: 2017.2.23</p>
         </section>
         <section class="section" id="section2">
-            <article class="slide">slide1</article>
+            <h1>Skill At A Glance</h1>
+        </section>
+        <section class="section" id="section3">
+            <article class="slide">Slide1</article>
             <article class="slide">slide2</article>
             <article class="slide">slide3</article>
             <article class="slide">slide4</article>
-        </section>
-        <section class="section" id="section3">
-            <h1>section3</h1>
         </section>
         <section class="section" id="section4">
             <h1>section4</h1>
@@ -42,20 +45,9 @@
     </main>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-    <script src="js/jquery.easings.min.js"></script>
-    <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
-    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
     <script type="text/javascript" src="js/fp-setting.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-<!--     <script type="text/javascript">
-        var hamburgers = document.querySelectorAll(".hamburger");
-    	var menu = document.querySelectorAll(".menu");
-	        hamburgers[0].addEventListener("click", function() {
-	          hamburgers[0].classList.toggle("is-active");
-	        }, false);
-    </script> -->
 </body>
 
 </html>
